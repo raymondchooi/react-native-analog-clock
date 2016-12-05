@@ -11,7 +11,7 @@
 
 This component is built with `React Native 0.39+` and works for Android and iOS.
 
-### Import AnalogClock.js
+**Import AnalogClock.js**
 ```javascript
 import AnalogClock from './AnalogClock';
 ```
@@ -55,8 +55,6 @@ source to path to your image.
 />
 ```
 ## Properties
-
-### General Clock Properties:
 
 | Property name        | Type      | Default | Description                        |
 | ---                  | ---       | ---     | ---                                |
