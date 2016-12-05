@@ -5,7 +5,7 @@
 
 ##### React native analog clock using setInterval and Javascript styling.
 
-<img src="https://raw.githubusercontent.com/raymondchooi/react-native-analog-clock/master/img/snslogClockPreview.gif" alt="preview" width="320px"></img>
+<img src="https://github.com/raymondchooi/react-native-analog-clock/blob/master/img/analogClockPreview.gif" alt="Analog Clock preview" width="320px"></img>
 
 ## Install
 
@@ -64,7 +64,7 @@ source to path to your image.
 | **clockBorderColor** | *string*  | 'black' | The color of the frame border      |
 | **clockBorderWidth** | *number*  | 7       | The width of the frame border      |
 | **clockCentreColor** | *string*  | 'black' | The color of the clock centre      |
-| **clockCentreSize**  | *number   | 15      | The size of the clock centre       |
+| **clockCentreSize**  | *number*  | 15      | The size of the clock centre       |
 | **hourHandColor**    | *string*  | 'black' | The color of the hour hand         |
 | **hourHandCurved**   | *boolean* | true    | Curved hour hand tip               |
 | **hourHandLength**   | *number*  | 70      | The length of the hour hand        |
