@@ -1,5 +1,3 @@
-'use strict';
-
 import React, { Component } from 'react';
 import { Image, View } from 'react-native';
 
@@ -41,7 +39,7 @@ export default class AnalogClock extends Component {
       position: 'relative',
       borderColor: 'black',
       borderWidth: this.props.clockBorderWidth,
-      borderRadius: this.props.clockSize/2,
+      borderRadius: this.props.clockSize/2
     }
   }
 
@@ -50,8 +48,8 @@ export default class AnalogClock extends Component {
       width: this.props.clockSize,
       height: this.props.clockSize,
       position: 'absolute',
-      right: 0,
-      bottom: 0,
+      right: -this.props.clockBorderWidth,
+      bottom: -this.props.clockBorderWidth
     }
   }
 
@@ -62,7 +60,7 @@ export default class AnalogClock extends Component {
       backgroundColor: this.props.clockCentreColor,
       borderRadius: this.props.clockCentreSize / 2,
       top: (this.props.clockSize - this.props.clockCentreSize) / 2,
-      left: (this.props.clockSize - this.props.clockCentreSize) / 2,
+      left: (this.props.clockSize - this.props.clockCentreSize) / 2
     }
   }
 
@@ -81,7 +79,7 @@ export default class AnalogClock extends Component {
       borderTopLeftRadius: this.props.hourHandCurved ?
                            this.props.hourHandWidth : 0,
       borderBottomLeftRadius: this.props.hourHandCurved ?
-                              this.props.hourHandWidth : 0,
+                              this.props.hourHandWidth : 0
     }
   }
 
@@ -100,7 +98,7 @@ export default class AnalogClock extends Component {
       borderTopLeftRadius: this.props.minuteHandCurved ?
                            this.props.minuteHandWidth : 0,
       borderTopRightRadius: this.props.minuteHandCurved ?
-                            this.props.minuteHandWidth : 0,
+                            this.props.minuteHandWidth : 0
     }
   }
 
@@ -119,7 +117,7 @@ export default class AnalogClock extends Component {
       borderTopLeftRadius: this.props.secondHandCurved ?
                            this.props.secondHandWidth : 0,
       borderTopRightRadius: this.props.secondHandCurved ?
-                            this.props.secondHandWidth : 0,
+                            this.props.secondHandWidth : 0
     }
   }
 
